@@ -1,63 +1,63 @@
-Matrícula,Nome,ED1,ED2,APRESENTAÇÃO,AT-JASP,"AT1 (3,0)","TP1 (7,0)","AP1 (10,0)",ED3,ED4,AT-QUALI,"AT2 (3,0)","TP2 (7,0)","AP2 (10,0)",MÉDIA,Coluna 1
-507857,ADRIANO KENNEDY BALBINO DO NASCIMENTO FILHO,FALSE,TRUE,TP1,TRUE,"2,5","5,1","7,6",TRUE,TRUE,TRUE,"3,0","5,3","8,3","7,9",
-514114,ALANIS OLIVEIRA SANTOS,TRUE,TRUE,ED1,FALSE,"2,5","5,3","7,8",TRUE,TRUE,TRUE,"3,0","4,9","7,9","7,8",
-555905,ALINE LIMA DO NASCIMENTO,TRUE,TRUE,ED2,FALSE,"2,5","7,0","9,5",TRUE,TRUE,TRUE,"3,0","6,0","9,0","9,3",
-514814,ALINE VITORIA SANTANA NUNES,TRUE,TRUE,TP1,FALSE,"2,5","6,3","8,8",TRUE,TRUE,FALSE,"2,5","6,0","8,5","8,7",
-514389,ANA EMILLY ALVES DE OLIVEIRA,TRUE,TRUE,ED1,FALSE,"2,5","5,1","7,6",TRUE,TRUE,TRUE,"3,0","6,6","9,6","8,6",
-515185,ANDREZA HONORIO MAGALHAES,TRUE,TRUE,ED1,FALSE,"2,5","5,1","7,6",TRUE,TRUE,TRUE,"3,0","6,6","9,6","8,6",
-540416,ANTÔNIO CLÁUDIO MOREIRA DE ALMEIDA,TRUE,TRUE,ED2,FALSE,"2,5","7,0","9,5",TRUE,TRUE,TRUE,"3,0","5,6","8,6","9,1",
-540431,ANTONIO GUILHERME GOMES BARBOSA,TRUE,TRUE,TP1,FALSE,"2,5","7,0","9,5",TRUE,TRUE,TRUE,"3,0","6,4","9,4","9,4",
-561780,ARTHUR VINICIUS MELO OLIVEIRA,TRUE,FALSE,ED1,FALSE,2,"7,0","9,0",TRUE,TRUE,TRUE,"3,0","6,4","9,4","9,2",
-499340,CARLOS VINICIO DANTAS ARAUJO,TRUE,FALSE,ED3,FALSE,2,"6,3","8,3",TRUE,TRUE,TRUE,"3,0","6,5","9,5","8,9",
-574238,DANIEL VITOR OLIVEIRA NASCIMENTO,TRUE,TRUE,,TRUE,"2,5","7,0","9,5",TRUE,TRUE,TRUE,"2,5","6,6","9,1","9,3",
-494696,DEOCLECIO RODRIGUES DA SILVA NETO,FALSE,TRUE,,FALSE,1,"5,3","6,3",TRUE,TRUE,FALSE,"2,0","4,9","6,9","6,6",9
-537725,DEUSIANE KAYLANE MOREIRA MAIA,TRUE,TRUE,ED2,TRUE,3,"7,0","10,0",TRUE,TRUE,TRUE,"3,0","6,6","9,6","9,8",
-554764,ERIKA MARIA DE LEMOS LIMA,TRUE,TRUE,ED2,FALSE,"2,5","7,0","9,5",TRUE,TRUE,TRUE,"3,0","6,0","9,0","9,3",
-511236,EVANILDO TAVARES LUZ,FALSE,FALSE,,FALSE,0,,0,FALSE,FALSE,FALSE,,,"0,0","0,0",
-536216,EVELYN DE SENA CAVALCANTE,TRUE,TRUE,ED2,TRUE,3,"7,0","10,0",TRUE,TRUE,FALSE,"2,5","6,6","9,1","9,6",
-541785,FRANCISCA GISELE BARBOSA UMBELINO,TRUE,TRUE,TP1+ED4,FALSE,"2,5","6,0","8,5",TRUE,TRUE,TRUE,"3,0","6,4","9,4","8,9",
-500699,FRANCISCO KEVEN ALMEIDA DA SILVA,TRUE,TRUE,ED3,FALSE,"2,5","6,3","8,8",TRUE,TRUE,TRUE,"3,0","6,5","9,5","9,2",
-538536,FRANCISCO LEVI SOUZA ANASTACIO,TRUE,TRUE,ED1,TRUE,3,"7,0","10,0",TRUE,TRUE,TRUE,"3,0","6,5","9,5","9,8",
-475320,FRANCISCO MIKAEL MONTEIRO SANTIAGO,TRUE,TRUE,ED4,TRUE,3,"7,0","10,0",TRUE,TRUE,TRUE,"3,0","6,6","9,6","9,8",
-536366,GABRIEL LUCAS SILVA RODRIGUES,TRUE,TRUE,ED3,TRUE,3,"4,2","7,2",TRUE,TRUE,TRUE,"3,0","5,1","8,1","7,7",
-428528,GERHARD WIRTZBIKI NETO,FALSE,FALSE,ED4,FALSE,1,"6,8","7,8",TRUE,TRUE,FALSE,"2,5","4,9","7,4","7,6",
-536892,GESLANE RODRIGUES DE SENA,TRUE,TRUE,ED1,TRUE,3,"7,0","10,0",TRUE,TRUE,TRUE,"3,0","6,5","9,5","9,8",
-508299,GUILHERME FRUTUOSO DE ALMEIDA,FALSE,FALSE,,FALSE,0,,0,FALSE,FALSE,FALSE,,,"0,0","0,0",
-538654,ISIS NASCIMENTO DE LAVOR,TRUE,TRUE,ED2,FALSE,"2,5","7,0","9,5",TRUE,TRUE,TRUE,"3,0","5,6","8,6","9,1",
-540224,JHON KRYS EVANGELISTA CRUZ,TRUE,TRUE,ED2,FALSE,"2,5","7,0","9,5",TRUE,TRUE,TRUE,"3,0","5,6","8,6","9,1",
-535512,JOAO ALBERTO RODRIGUES SOARES COSTA,TRUE,TRUE,TP1,FALSE,"2,5","6,1","8,6",TRUE,TRUE,TRUE,"3,0","5,3","8,3","8,4",
-535684,JOAO CARLOS CONRADO DE LIMA,TRUE,TRUE,TP1,FALSE,"2,5","6,1","8,6",TRUE,TRUE,FALSE,"2,5","5,3","7,8","8,2",
-540509,JOAO EDUARDO DE OLIVEIRA GIRAO,FALSE,TRUE,TP1,TRUE,"2,5","5,1","7,6",TRUE,TRUE,TRUE,"3,0","5,3","8,3","7,9",
-494781,JOAO GERLIANDRO SILVA MARTINS,FALSE,FALSE,,FALSE,0,,0,FALSE,FALSE,FALSE,,,"0,0","0,0",
-511176,JULIA FREITAS SANTOS,TRUE,TRUE,ED1,FALSE,"2,5","5,3","7,8",TRUE,TRUE,TRUE,"3,0","4,9","7,9","7,8",
-514839,LARA ROQUE SARTORI,TRUE,TRUE,ED4,TRUE,3,"7,0","10,0",TRUE,TRUE,TRUE,"3,0","6,1","9,1","9,6",
-511336,LAUANA MARIA CARTAXO DE OLIVEIRA,TRUE,TRUE,,FALSE,"1,5","7,0","8,5",TRUE,TRUE,FALSE,"2,0","5,1","7,1","7,8",
-511097,LEVI DE CASTRO SANTOS,TRUE,TRUE,ED2,FALSE,"2,5","4,9","7,4",FALSE,FALSE,FALSE,,,"0,0","3,7",
-508369,LOURIVAL MIRANDA SANTIAGO JUNIOR,TRUE,TRUE,,FALSE,"1,5","6,5",8,TRUE,TRUE,FALSE,"2,0","5,4","7,4","7,7",
-508370,LUCAS JOSE SOUSA LIMA,TRUE,FALSE,,FALSE,1,,1,FALSE,FALSE,FALSE,,,"0,0","0,5",
-475053,LUCAS RODRIGUES OLIVEIRA,TRUE,TRUE,ED3,FALSE,"2,5","4,2","6,7",TRUE,TRUE,FALSE,"2,5","5,1","7,6","7,2",
-536653,LUIS ANTONIO MAIA SOMBRA,TRUE,TRUE,TP1,FALSE,"2,5","6,1","8,6",TRUE,TRUE,TRUE,"3,0","5,3","8,3","8,4",
-473430,LUIZ FELIPE RODRIGUES NOGUEIRA,FALSE,FALSE,ED4,FALSE,1,"6,8","7,8",TRUE,TRUE,FALSE,"2,5","4,9","7,4","7,6",
-511354,MARCO ANTONIO RODRIGUES GOMES DE SOUZA,TRUE,TRUE,ED2+TP1,TRUE,3,"4,9","7,9",TRUE,TRUE,TRUE,"3,0","4,9","7,9","7,9",
-540240,MARCOS CAUE CAVALCANTE GIRAO,FALSE,TRUE,,FALSE,1,,1,TRUE,TRUE,FALSE,"1,5","5,6","7,1","4,1",10
-496273,MARIA TERESA MATOSO CHAVES,FALSE,TRUE,TP1,FALSE,2,"6,3","8,3",TRUE,TRUE,FALSE,"2,5","6,0","8,5","8,4",
-469910,MATHEUS NUNES LIMA,TRUE,TRUE,ED3,FALSE,"2,5","4,2","6,7",TRUE,TRUE,FALSE,"2,5","5,1","7,6","7,2",
-497267,MATHEUS SANTOS SOARES,TRUE,TRUE,,FALSE,"1,5","7,0","8,5",TRUE,TRUE,FALSE,"2,0","5,1","7,1","7,8",
-516205,NATAM LEAO FERREIRA,TRUE,TRUE,TP1,TRUE,3,"4,9","7,9",TRUE,TRUE,FALSE,"2,5","4,9","7,4","7,6",
-540054,NAYARA DA COSTA DINIZ,TRUE,TRUE,ED4,TRUE,3,"7,0","10,0",TRUE,TRUE,TRUE,"3,0","6,1","9,1","9,6",
-539802,NICOLAS MAURICIO CHAVES,TRUE,TRUE,TP1+ED4,FALSE,"2,5","6,0","8,5",TRUE,TRUE,TRUE,"3,0","6,4","9,4","8,9",
-537016,PATRICK GLAUBER OLIVEIRA DA SILVA,TRUE,TRUE,ED1,TRUE,3,"7,0","10,0",TRUE,TRUE,TRUE,"3,0","6,5","9,5","9,8",
-494837,PAULO HENRIQUE DINIZ DE LIMA ALENCAR,TRUE,TRUE,ED3,FALSE,"2,5","6,3","8,8",TRUE,TRUE,TRUE,"3,0","6,5","9,5","9,2",
-499380,PAULO ISAC DE LIMA SILVA,TRUE,TRUE,ED2,FALSE,"2,5","7,0","9,5",TRUE,TRUE,FALSE,"2,5","6,0","8,5","9,0",
-511175,PEDRO DE CARVALHO CHAABAN,TRUE,TRUE,ED1,FALSE,"2,5","6,7","9,2",TRUE,TRUE,TRUE,"3,0","6,1","9,1","9,1",
-499351,PEDRO HENRIQUE COLARES GADELHA,TRUE,TRUE,,TRUE,"2,5","7,0","9,5",TRUE,TRUE,TRUE,"2,5","6,6","9,1","9,3",
-403266,PEDRO HENRIQUE LEITE FELIX,FALSE,FALSE,,FALSE,0,,0,FALSE,FALSE,TRUE,"1,0",,"1,0","0,5",
-541794,RAFAEL DE ABREU BARBOSA,TRUE,TRUE,TP1,FALSE,"2,5","6,0","8,5",TRUE,TRUE,TRUE,"3,0","6,4","9,4","8,9",
-553434,RAFAEL RODRIGO ARAUJO DA SILVA,TRUE,TRUE,ED1,FALSE,"2,5","6,7","9,2",TRUE,TRUE,TRUE,"3,0","6,1","9,1","9,1",
-475304,RENATO VASCONCELOS MACIEL FILHO,TRUE,TRUE,ED2,FALSE,"2,5","4,9","7,4",TRUE,TRUE,FALSE,"2,5","4,9","7,4","7,4",
-508927,RIAN RODRIGUES MOURAO,FALSE,TRUE,TP1,TRUE,"2,5","5,1","7,6",TRUE,TRUE,TRUE,"3,0","5,3","8,3","7,9",
-499785,SAVIO MOREIRA GARCIA DA SILVA,TRUE,TRUE,ED1,FALSE,"2,5","6,7","9,2",TRUE,TRUE,TRUE,"3,0","6,1","9,1","9,1",
-535741,SIMIRES MARIA COSTA DE SOUZA,TRUE,TRUE,ED2,TRUE,3,"7,0","10,0",TRUE,TRUE,TRUE,"3,0","6,6","9,6","9,8",
-473478,TALITA MOREIRA FREIRE,FALSE,TRUE,,FALSE,1,"7,0","8,0",TRUE,TRUE,FALSE,"2,0","5,1","7,1","7,6",
-509493,VICTOR MANOEL LOPES BANDEIRA,TRUE,TRUE,ED1,FALSE,"2,5","5,1","7,6",TRUE,TRUE,TRUE,"3,0","6,6","9,6","8,6",
-536748,WALLISON BRENO GOMES MARTINS,TRUE,TRUE,TP1,FALSE,"2,5","7,0","9,5",TRUE,TRUE,TRUE,"3,0","6,4","9,4","9,4",
+ED1,ED2,APRESENTAÇÃO,AT-JASP,"AT1 (3,0)","TP1 (7,0)","AP1 (10,0)",ED3,ED4,AT-QUALI,"AT2 (3,0)","TP2 (7,0)","AP2 (10,0)",MÉDIA
+False,True,TP1,True,"2,5","5,1","7,6",True,True,True,"3,0","5,3","8,3","7,9"
+True,True,ED1,False,"2,5","5,3","7,8",True,True,True,"3,0","4,9","7,9","7,8"
+True,True,ED2,False,"2,5","7,0","9,5",True,True,True,"3,0","6,0","9,0","9,3"
+True,True,TP1,False,"2,5","6,3","8,8",True,True,False,"2,5","6,0","8,5","8,7"
+True,True,ED1,False,"2,5","5,1","7,6",True,True,True,"3,0","6,6","9,6","8,6"
+True,True,ED1,False,"2,5","5,1","7,6",True,True,True,"3,0","6,6","9,6","8,6"
+True,True,ED2,False,"2,5","7,0","9,5",True,True,True,"3,0","5,6","8,6","9,1"
+True,True,TP1,False,"2,5","7,0","9,5",True,True,True,"3,0","6,4","9,4","9,4"
+True,False,ED1,False,2,"7,0","9,0",True,True,True,"3,0","6,4","9,4","9,2"
+True,False,ED3,False,2,"6,3","8,3",True,True,True,"3,0","6,5","9,5","8,9"
+True,True,,True,"2,5","7,0","9,5",True,True,True,"2,5","6,6","9,1","9,3"
+False,True,,False,1,"5,3","6,3",True,True,False,"2,0","4,9","6,9","6,6"
+True,True,ED2,True,3,"7,0","10,0",True,True,True,"3,0","6,6","9,6","9,8"
+True,True,ED2,False,"2,5","7,0","9,5",True,True,True,"3,0","6,0","9,0","9,3"
+False,False,,False,0,,0,False,False,False,,,"0,0","0,0"
+True,True,ED2,True,3,"7,0","10,0",True,True,False,"2,5","6,6","9,1","9,6"
+True,True,TP1+ED4,False,"2,5","6,0","8,5",True,True,True,"3,0","6,4","9,4","8,9"
+True,True,ED3,False,"2,5","6,3","8,8",True,True,True,"3,0","6,5","9,5","9,2"
+True,True,ED1,True,3,"7,0","10,0",True,True,True,"3,0","6,5","9,5","9,8"
+True,True,ED4,True,3,"7,0","10,0",True,True,True,"3,0","6,6","9,6","9,8"
+True,True,ED3,True,3,"4,2","7,2",True,True,True,"3,0","5,1","8,1","7,7"
+False,False,ED4,False,1,"6,8","7,8",True,True,False,"2,5","4,9","7,4","7,6"
+True,True,ED1,True,3,"7,0","10,0",True,True,True,"3,0","6,5","9,5","9,8"
+False,False,,False,0,,0,False,False,False,,,"0,0","0,0"
+True,True,ED2,False,"2,5","7,0","9,5",True,True,True,"3,0","5,6","8,6","9,1"
+True,True,ED2,False,"2,5","7,0","9,5",True,True,True,"3,0","5,6","8,6","9,1"
+True,True,TP1,False,"2,5","6,1","8,6",True,True,True,"3,0","5,3","8,3","8,4"
+True,True,TP1,False,"2,5","6,1","8,6",True,True,False,"2,5","5,3","7,8","8,2"
+False,True,TP1,True,"2,5","5,1","7,6",True,True,True,"3,0","5,3","8,3","7,9"
+False,False,,False,0,,0,False,False,False,,,"0,0","0,0"
+True,True,ED1,False,"2,5","5,3","7,8",True,True,True,"3,0","4,9","7,9","7,8"
+True,True,ED4,True,3,"7,0","10,0",True,True,True,"3,0","6,1","9,1","9,6"
+True,True,,False,"1,5","7,0","8,5",True,True,False,"2,0","5,1","7,1","7,8"
+True,True,ED2,False,"2,5","4,9","7,4",False,False,False,,,"0,0","3,7"
+True,True,,False,"1,5","6,5",8,True,True,False,"2,0","5,4","7,4","7,7"
+True,False,,False,1,,1,False,False,False,,,"0,0","0,5"
+True,True,ED3,False,"2,5","4,2","6,7",True,True,False,"2,5","5,1","7,6","7,2"
+True,True,TP1,False,"2,5","6,1","8,6",True,True,True,"3,0","5,3","8,3","8,4"
+False,False,ED4,False,1,"6,8","7,8",True,True,False,"2,5","4,9","7,4","7,6"
+True,True,ED2+TP1,True,3,"4,9","7,9",True,True,True,"3,0","4,9","7,9","7,9"
+False,True,,False,1,,1,True,True,False,"1,5","5,6","7,1","4,1"
+False,True,TP1,False,2,"6,3","8,3",True,True,False,"2,5","6,0","8,5","8,4"
+True,True,ED3,False,"2,5","4,2","6,7",True,True,False,"2,5","5,1","7,6","7,2"
+True,True,,False,"1,5","7,0","8,5",True,True,False,"2,0","5,1","7,1","7,8"
+True,True,TP1,True,3,"4,9","7,9",True,True,False,"2,5","4,9","7,4","7,6"
+True,True,ED4,True,3,"7,0","10,0",True,True,True,"3,0","6,1","9,1","9,6"
+True,True,TP1+ED4,False,"2,5","6,0","8,5",True,True,True,"3,0","6,4","9,4","8,9"
+True,True,ED1,True,3,"7,0","10,0",True,True,True,"3,0","6,5","9,5","9,8"
+True,True,ED3,False,"2,5","6,3","8,8",True,True,True,"3,0","6,5","9,5","9,2"
+True,True,ED2,False,"2,5","7,0","9,5",True,True,False,"2,5","6,0","8,5","9,0"
+True,True,ED1,False,"2,5","6,7","9,2",True,True,True,"3,0","6,1","9,1","9,1"
+True,True,,True,"2,5","7,0","9,5",True,True,True,"2,5","6,6","9,1","9,3"
+False,False,,False,0,,0,False,False,True,"1,0",,"1,0","0,5"
+True,True,TP1,False,"2,5","6,0","8,5",True,True,True,"3,0","6,4","9,4","8,9"
+True,True,ED1,False,"2,5","6,7","9,2",True,True,True,"3,0","6,1","9,1","9,1"
+True,True,ED2,False,"2,5","4,9","7,4",True,True,False,"2,5","4,9","7,4","7,4"
+False,True,TP1,True,"2,5","5,1","7,6",True,True,True,"3,0","5,3","8,3","7,9"
+True,True,ED1,False,"2,5","6,7","9,2",True,True,True,"3,0","6,1","9,1","9,1"
+True,True,ED2,True,3,"7,0","10,0",True,True,True,"3,0","6,6","9,6","9,8"
+False,True,,False,1,"7,0","8,0",True,True,False,"2,0","5,1","7,1","7,6"
+True,True,ED1,False,"2,5","5,1","7,6",True,True,True,"3,0","6,6","9,6","8,6"
+True,True,TP1,False,"2,5","7,0","9,5",True,True,True,"3,0","6,4","9,4","9,4"
