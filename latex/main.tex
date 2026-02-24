@@ -6,7 +6,7 @@
 \usepackage[brazil]{babel}
 %\usepackage[latin1]{inputenc}  
 \raggedbottom
-\setlength{\parskip}{0.5pt}
+\setlength{\parskip}{1pt}
      
 \sloppy
 
@@ -51,15 +51,6 @@ Nesse contexto, críticas como as de \cite{tichy1998should} questionaram a ausê
 
 No âmbito educacional, a ESE pressupõe a integração entre teoria e prática, possibilitando que o estudante planeje, execute e analise estudos empíricos de forma estruturada. Alinhada a essa perspectiva, a abordagem proposta por \cite{greco2025learning} incorpora a execução de estudos primários no ensino de graduação, aproximando o discente das práticas adotadas em uma Engenharia de Software orientada por evidências.
 
-\subsection{Estratégias de pesquisa empírica}
-A seleção da estratégia de pesquisa adequada é guiada pelo tipo de questão que se deseja responder e pelo nível de controle sobre o ambiente. Conforme categorizado por \cite{easterbrook} e discutido por \cite{travassos2002introducao}, as abordagens empíricas na Engenharia de Software dividem-se primariamente em:
-
-\begin{itemize}
-    \item \textit{Surveys}: É uma estratégia de pesquisa, frequentemente retrospectiva, utilizada para coletar dados qualitativos ou quantitativos de uma amostra representativa. Seu objetivo principal é descrever características, opiniões ou comportamentos de um grande grupo de indivíduos, permitindo generalizações estatísticas sobre a população-alvo.
-    \item \textit{Case Studies}: Segundo \cite{travassos2002introducao}, são investigações empíricas que analisam um fenômeno contemporâneo dentro do seu contexto real. Essa abordagem é especialmente útil quando os limites entre o fenômeno e o contexto não são claramente evidentes e não é possível isolar o comportamento do sistema do seu ambiente operacional.
-    \item \textit{Experiments}: São investigações rigorosas onde uma ou mais variáveis independentes são manipuladas para medir seu efeito sobre variáveis dependentes, mantendo as demais constantes. Essa estratégia oferece o maior nível de controle e é a única capaz de provar relações de causalidade (causa e efeito) com alta precisão estatística."
-\end{itemize}
-
 \section{Trabalhos Relacionados}
 
 A literatura recente sobre o ensino de Engenharia de Software tem destacado a transição de modelos tradicionais para abordagens baseadas em aprendizagem ativa. \cite{cordova2024active}, em uma revisão sistemática, identificaram que estratégias centradas no estudante favorecem não apenas a retenção de conteúdo, mas também o desenvolvimento do pensamento crítico. No mesmo sentido, \cite{irabedra2025active} e \cite{bonetti2025example} demonstram que o uso de projetos práticos e exemplos reais aumenta o engajamento discente, mitigando a abstração excessiva de conceitos técnicos.
@@ -73,56 +64,31 @@ Em contraste com esses estudos, este trabalho, embora situado no mesmo contexto 
 
 Esse trabalho descreve uma experiência de ensino em uma turma da disciplina eletiva de ESE de 64 horas, ministrada no campus de uma universidade, para cursos de graduação. O objetivo geral da disciplina é capacitar o estudante nos fundamentos de ESE, abrangendo estudos primários e secundários. %A ementa inclui: conceituação e esclarecimento sobre experimentos controlados, estudos de caso e surveys; o processo de desenvolvimento de um projeto de pesquisa (incluindo atividades, formulação de questões de pesquisa, construção de teoria e análise de dados qualitativa/quantitativa); investigação de experimentos em engenharia de software; e prática supervisionada através de um experimento de engenharia de software em pequena escala.%
 
-Durante a disciplina, a professora responsável e três monitores realizaram o acompanhamento das atividades. A turma foi composta por 63 estudantes, sendo 39 do curso de Engenharia de Software e 24 de Ciência da Computação. A turma foi conduzida através de uma combinação de estratégias: aulas dialogadas, estudos dirigidos, seminários, exercícios em duplas ou grupos e trabalhos práticos colaborativos. Cada conjunto de conteúdos foi tratado segundo a seguinte organização.
+Durante a disciplina, a professora responsável e três monitores realizaram o acompanhamento das atividades. A turma foi composta por 63 estudantes, sendo 39 do curso de Engenharia de Software e 24 de Ciência da Computação. A sequência das atividades ao longo do semestre foi a seguinte (detalhes em \cite{greco2025learning}):
 
-Para os estudos primários, a professora realizou aulas interativas fundamentadas em \cite{wohlin2012experimentation}, destacando conceitos essenciais, o papel da experimentação em Engenharia de Software e diferentes tipos de estudos primários (como experimentos controlados, estudos de caso, pesquisa-ação e pesquisas de opinião). Em paralelo, exemplos selecionados de estudos primários foram incluídos nas aulas para ilustrar a aplicação prática desses conceitos.
-
-Nos estudos secundários, a docente adotou aulas expositivas interativas, baseadas em trabalhos clássicos sobre revisões sistemáticas, mapeamentos sistemáticos e revisões terciárias, como os de \cite{kitchenham2004procedures}. Nessa abordagem, exemplos de revisões publicadas foram discutidos brevemente em sala.
-
-O tópico experimentos controlados foi aprofundado por meio de estudos dirigidos em grupos de até 3 alunos. Os estudantes foram orientados a ler e sintetizar os capítulos 6, 7, 8 e 9 de \cite{wohlin2012experimentation} que tratam de processo, escopo, planejamento e execução do experimento. A partir dessas leituras, cada grupo preparou e apresentou seminários para a turma, utilizando os materiais produzidos nos estudos dirigidos.
-
-Para a análise estatística de experimentos controlados, foi desenvolvido uma aula expositiva interativa abordando estatística descritiva, tipos e escalas de variáveis, verificação de normalidade e testes de hipóteses. Em seguida, organizou-se uma sessão prática de laboratório conduzida pelos monitores usando o software JASP\footnote{JASP: https://jasp-stats.org/} (software open-source com interface
-gráfica que integra vários testes estatísticos), na qual se seguiu um roteiro estruturado de análise: preparação da base de dados do experimento, análise estatística descritiva, teste de normalidade e testes de hipóteses. Nesse contexto, utilizaram-se dados do experimento controlado publicado por \cite{fonseca2024avaliaccao} na atividade prática.
-
-O trabalho prático 1 foi planejado com o objetivo de consolidar a compreensão de experimentos controlados e da respectiva análise estatística. Para isso, foi formado grupos de três estudantes, responsáveis por analisar um artigo científico que descrevia um experimento controlado, extrair seus elementos metodológicos centrais (objetivos, contexto, variáveis, tratamentos e hipóteses) e realizar uma análise estatística completa, incluindo estatística descritiva, teste de normalidade e testes de hipóteses. Posteriormente, cada grupo apresentou em sala suas principais interpretações e resultados.
-
-No que se refere aos estudos de caso, os estudantes realizaram um novo estudo dirigido, sobre o Capítulo 5 de \cite{wohlin2012experimentation}, que examina a metodologia de estudo de caso em Engenharia de Software.
-
-O tópico de pesquisas de opinião pessoal (\textit{Surveys}) foi trabalhado por meio de outro estudo dirigido baseado no Capítulo 3 de \cite{shull2008guide}, que discute implementação e dificuldades típicas de \textit{surveys} em contextos de Engenharia de Software.
-
-A análise qualitativa foi introduzida com uma aula expositiva dialogada baseada em materiais do minicurso de \cite{martinelli2023analise}, abordando técnicas como codificação aberta, codificação fechada e \textit{Grounded Theory}. Os estudantes participaram de uma atividade prática em sala dedicada à codificação aberta de dados. Em laboratório, os monitores orientaram uma sessão voltada à codificação fechada e à visualização de resultados, utilizando a ferramenta Taguette\footnote{Taguette: https://www.taguette.org/} para apoio à análise de conteúdo e a plataforma  Flourish\footnote{Flourish: https://flourish.studio/} para a construção de visualizações de dados qualitativos. Para tornar a atividade mais concreta, foi utilizado uma parte da amostra de dados qualitativos provenientes do estudo de \cite{desiderio2024ready}.
-
-O segundo trabalho prático teve como foco um estudo empírico. Foram formados grupos de até seis estudantes, e a cada grupo foi atribuído um tipo de estudo primário (experimento controlado, estudo de caso ou \textit{survey}), atribuídos aleatoriamente (três equipes por método). Coube aos grupos planejar o estudo (incluindo objetivos, variáveis, participantes, contexto, procedimentos e instrumentos de coleta), executar a investigação e realizar a análise dos dados, seja quantitativa, seja qualitativa. A atividade resultou em duas apresentações: uma de planejamento, voltada ao delineamento do estudo, e outra de resultados, contemplando procedimentos de execução, análises realizadas e reflexões sobre o aprendizado proporcionado.
-
-A metodologia adotada foi inspirada na abordagem descrita por \cite{meireles2024experience}, porém ajustada às características do perfil de estudantes de gradução da turma:
 \begin{itemize}
-    \item Aulas introdutórias sobre estudos primários e secundários alinhadas ao nível da turma;
-    \item Sessões práticas de laboratório em análise estatística com apoio de ferramentas como JASP\footnote{JASP: https://jasp-stats.org/};
-    \item A inclusão sistemática de análise qualitativa com uso de Taguette\footnote{Taguette: https://www.taguette.org/} e  Flourish\footnote{Flourish: https://flourish.studio/}. 
-    \item Em função de limitações de espaço físico e do tamanho da turma, debates em grande grupo não foram priorizados;
-    \item O tema Design Science Research não foi abordado uma vez que a disciplina não tinha como público-alvo estudantes de pós-graduação.
-    \item Diferentemente do que é descrito nos trabalhos práticos de \cite{meireles2024experience}, que enfatizava etapas de mapeamento sistemático e o planejamento de novos experimentos, nesta experiência concentrou-se o esforço em atividades práticas com estudos primários, mantendo a reanálise de um experimento controlado e adicionando a execução completa de um estudo primário (experimento, estudo de caso ou \textit{survey}) como eixo central de aprendizagem.
-    
+    \item \textbf{Estudos primários e secundários:} aulas dialogadas \cite{wohlin2012experimentation, kitchenham2004procedures};
+    \item \textbf{Experimentos controlados:} estudo dirigido em grupos de até 3, com seminários (Cap. 6--9 de \cite{wohlin2012experimentation});
+    \item \textbf{Análise estatística:} aula expositiva + laboratório com JASP\footnote{JASP: https://jasp-stats.org/}, usando dados de \cite{fonseca2024avaliaccao};
+    \item \textbf{TP1:} reanálise de experimento controlado em grupos de 3, com apresentação em sala;
+    \item \textbf{Estudos de caso e \textit{surveys}:} estudos dirigidos (Cap. 5 de \cite{wohlin2012experimentation}, Cap. 3 de \cite{shull2008guide});
+    \item \textbf{Análise qualitativa:} aula + laboratório com Taguette\footnote{Taguette: https://www.taguette.org/} e Flourish\footnote{Flourish: https://flourish.studio/} \cite{desiderio2024ready};
+    \item \textbf{TP2:} planejamento, execução e análise de estudo primário (experimento, caso ou \textit{survey}) em grupos de até 6, com duas apresentações.
 \end{itemize}
 
+A metodologia adotada foi inspirada em \cite{meireles2024experience}, porém ajustada às características do perfil de estudantes de graduação da turma. As aulas introdutórias sobre estudos primários e secundários foram alinhadas ao nível da turma, e as sessões práticas de laboratório em análise estatística e qualitativa utilizaram JASP, Taguette e Flourish. Em função de limitações de espaço físico e do tamanho da turma, debates em grande grupo não foram priorizados. O tema Design Science Research não foi abordado, uma vez que a disciplina não tinha como público-alvo estudantes de pós-graduação. Diferentemente do que é descrito nos trabalhos práticos de \cite{meireles2024experience}, que enfatizava etapas de mapeamento sistemático e o planejamento de novos experimentos, nesta experiência concentrou-se o esforço em atividades práticas com estudos primários, mantendo a reanálise de um experimento controlado e adicionando a execução completa de um estudo primário (experimento, estudo de caso ou \textit{survey}) como eixo central de aprendizagem.
+
 \subsection{Pesquisa de Percepção dos Estudantes}
-A percepção dos estudantes sobre a disciplina foi investigada por meio de uma pesquisa de opinião, estruturada a partir do instrumento adotado por \cite{meireles2024experience}. O questionário online disponibilizado na plataforma Google Forms, composto por 31 questões (24 fechadas e 7 abertas) distribuídas em cinco blocos temáticos: dados demográficos, percepção de aprendizagem antes da disciplina, percepção de aprendizagem após a disciplina, motivação para aprender e percepção de valor atribuído à aprendizagem. O questionário completo, bem como a descrição detalhada dos procedimentos de análise empregados para cada variável estão disponíveis no repositório Github.
+A percepção dos estudantes foi investigada por meio de questionário online (Google Forms), estruturado a partir do instrumento de \cite{meireles2024experience}, com 31 questões (24 fechadas e 7 abertas) em cinco blocos: dados demográficos, percepção de aprendizagem antes/depois, motivação e valor atribuído. A participação foi voluntária, com TCLE assegurando anonimato e uso acadêmico. O questionário foi divulgado em sala ao final da disciplina; dos 63 matriculados, 21 responderam. O questionário completo e os procedimentos de análise estão disponíveis no repositório.
 
-A participação na pesquisa foi voluntária: nenhum estudante foi obrigado a responder ao questionário, nem sofreu qualquer tipo de penalidade em caso de desistência. Os participantes receberam o Termo de Consentimento Livre e Esclarecido (TCLE) e só puderam prosseguir após registrar concordância. Esse termo ressaltava a confidencialidade dos dados, a inexistência de riscos envolvidos e o uso exclusivo das respostas para fins acadêmicos, assegurando o anonimato e a não divulgação de informações identificáveis em publicações.
+Para o tratamento dos dados, foi adotada uma abordagem mista (\textit{mixed-methods}), combinando análises quantitativas e qualitativas. Os dados quantitativos foram organizados, analisados e visualizados por meio de notebooks Python, com o uso de bibliotecas amplamente empregadas em análise de dados e estatística, como Pandas\footnote{Pandas: https://pandas.pydata.org/} para manipulação e organização dos dados, Scipy\footnote{Scipy: https://scipy.org/} para análises estatísticas e Matplotlib\footnote{Matplotlib: https://matplotlib.org/} para a geração dos gráficos. A implementação e execução dos scripts ocorreram na IDE Cursor\footnote{Cursor: https://www.cursor.so/}, utilizando notebooks Jupyter\footnote{Jupyter: https://jupyter.org/}, que permitiram a execução interativa das análises e a visualização dos resultados.
 
-A divulgação do questionário foi realizada em sala de aula, ao final da disciplina, após as apresentações dos trabalhos das equipes. Os estudantes tiveram uma semana para responder ao instrumento. A pesquisa considerou exclusivamente discentes matriculados na disciplina de Engenharia de Software Experimental no semestre analisado, totalizando 63 estudantes, dos quais 21 responderam ao questionário. A coleta ocorreu após a conclusão de todas as atividades previstas na disciplina.
+A análise quantitativa contemplou estatísticas descritivas e visualizações por meio de boxplots, com o objetivo de examinar o desempenho dos estudantes nas atividades propostas. Adicionalmente, foram conduzidas análises de regressão para investigar a relação entre variáveis associadas à motivação, conhecimento prévio e confiança percebida, bem como análises de confiabilidade para avaliar a consistência interna dos blocos do instrumento de coleta. Os procedimentos estatísticos foram realizados de forma colaborativa por dois pesquisadores, visando maior rigor na condução e interpretação dos resultados.
 
-Para o tratamento dos dados, foi adotada uma abordagem exclusivamente quantitativa. Os dados foram organizados, analisados e visualizados por meio de notebooks Python, com o uso de bibliotecas amplamente empregadas em análise de dados e estatística, como Pandas\footnote{Pandas: https://pandas.pydata.org/}
- para manipulação e organização dos dados, Scipy\footnote{Scipy: https://scipy.org/}
- para análises estatísticas e Matplotlib\footnote{Matplotlib: https://matplotlib.org/}
- para a geração dos gráficos. A implementação e execução dos scripts ocorreram na IDE Cursor\footnote{Cursor: https://www.cursor.so/}
-, utilizando notebooks Jupyter\footnote{Jupyter: https://jupyter.org/}
-, que permitiram a execução interativa das análises e a visualização dos resultados.
-
-A análise contemplou estatísticas descritivas e visualizações por meio de boxplots, com o objetivo de examinar o desempenho dos estudantes nas atividades propostas. Adicionalmente, foram conduzidas análises de regressão para investigar a relação entre variáveis associadas à motivação, conhecimento prévio e confiança percebida, bem como análises de confiabilidade para avaliar a consistência interna dos blocos do instrumento de coleta. Os procedimentos estatísticos foram realizados de forma colaborativa por dois pesquisadores, visando maior rigor na condução e interpretação dos resultados.
+Para a análise qualitativa, as respostas às sete questões abertas do questionário foram submetidas a um processo de codificação aberta \cite{saldana2021coding}, no qual dois pesquisadores identificaram, de forma independente, códigos temáticos emergentes a partir dos relatos dos estudantes. Os códigos foram posteriormente consolidados por consenso e organizados em categorias temáticas, permitindo a triangulação com os resultados quantitativos e uma compreensão mais aprofundada da experiência vivenciada pelos discentes.
 
 \section{Resultados}
-Esta seção apresenta os resultados obtidos a partir dos dados coletados por meio do questionário e das planilhas de acompanhamento de notas/atividades. Os dados quantitativos são apresentados utilizando representações gráficas e análises estatísticas 
+Esta seção apresenta os resultados obtidos a partir dos dados coletados por meio do questionário e das planilhas de acompanhamento de notas/atividades. Os dados quantitativos são apresentados utilizando representações gráficas e análises estatísticas, enquanto os dados qualitativos são apresentados por meio de códigos temáticos emergentes e citações representativas dos estudantes.
 
 \subsection{Desempenho da turma}
 A Figura \ref{fig:boxplotsNotas} apresenta a distribuição das notas dos trabalhos práticos TP1 e TP2. Em ambos, a maior parte das notas concentra-se entre 7,5 e 9,5, indicando desempenho geral elevado da turma.
@@ -152,24 +118,48 @@ A visualização permite observar mudanças nas medianas, na dispersão e na for
     \label{fig:boxplots}
 \end{figure}
 
-\subsection{Análise de Regressão}
-Para identificar quais fatores influenciam a confiança dos estudantes em conduzir pesquisas experimentais, foi ajustado um modelo de \textbf{Random Forest Regressor}. Esse modelo é particularmente adequado quando há múltiplas variáveis preditoras potencialmente correlacionadas, pois captura relações não lineares e interações complexas entre os atributos.
+\subsection{Análise Qualitativa das Percepções Discentes}
 
-A importância das variáveis foi calculada com base na redução média de impureza, refletindo a contribuição relativa de cada preditor para a capacidade do modelo em explicar a variância da variável dependente (confiança do estudante). Os valores foram normalizados e apresentados em porcentagem para facilitar a interpretação comparativa.
+Para compreender como a autoeficácia foi construída ao longo da disciplina e quais aspectos da vivência prática mais influenciaram a percepção dos estudantes, realizou-se uma análise qualitativa das respostas às sete questões abertas do questionário de percepção, por meio de codificação aberta. Os resultados são organizados em quatro eixos temáticos.
 
-A Figura \ref{fig:importanciaIndividual} apresenta a importância relativa das variáveis no modelo, evidenciando que \textbf{a motivação média dos estudantes} é, de longe, o fator mais determinante da confiança, representando \textbf{41,1\%} da contribuição total. Esse resultado sugere que a percepção de motivação ao longo da disciplina está positivamente associada à autoconfiança para aplicar conceitos de pesquisa experimental.
+\subsubsection{Experiência prévia e ponto de partida}
 
-O segundo fator mais relevante é a \textbf{motivação relacionada à Análise Qualitativa} (20,1\%), indicando que áreas específicas do conteúdo também podem influenciar substancialmente o sentimento de competência dos estudantes.
+Dos 21 respondentes, 13 declararam não possuir experiência prévia com ESE. Relatos como \textit{``Nunca conduzi um estudo''} (E1), \textit{``Nenhum''} (E4, E12, entre outros) e \textit{``Não utilizei nenhum, foi a primeira vez que fui apresentado à engenharia de software experimental''} (E17) evidenciam que a disciplina representou, para a maioria, o primeiro contato estruturado com métodos empíricos. Apenas quatro relataram experiência prévia diversificada; os demais mencionaram experiências pontuais. A autoeficácia ao final do curso foi construída predominantemente durante a disciplina.
 
-Em seguida, surgem três variáveis com contribuições semelhantes:
+\subsubsection{Construção da autoeficácia}
+
+A análise das justificativas dos estudantes sobre sua capacidade percebida ao final da disciplina revelou três códigos temáticos centrais.
+
+O código mais frequente, presente em 12 dos 21 relatos, foi a \textbf{autoeficácia construída pela vivência prática}. Os estudantes atribuíram a confiança à experiência de planejar, executar e analisar um estudo empírico:
+
 \begin{itemize}
-    \item \textbf{Engajamento} (8,4\%)
-    \item \textbf{Conhecimento prévio} (8,1\%)
-    \item \textbf{Motivação para Survey} (8,0\%)
+    \item E1: \textit{``Após a disciplina eu consigo mapear e estruturar um estudo, consigo fazer o passo a passo até o levantamento e estudo dos dados.''}
+    \item E3: \textit{``Com o trabalho prático, onde tivemos que elaborar e dirigir um estudo de caso, me fez me sentir mais confiante para realizar pesquisas, já que agora possuo essa experiência.''}
+    \item E17: \textit{``Agora tenho uma boa noção de como realizar análises qualitativas e quantitativas e me sinto bem mais confiante em conduzir qualquer tipo de experimento.''}
 \end{itemize}
-Esses resultados apontam que tanto fatores comportamentais (engajamento nas atividades) quanto fatores cognitivos (base de conhecimento anterior) desempenham papel moderado, porém relevante, na formação da confiança. A motivação por tópicos específicos, como Estudo de Caso (6,7\%) e RSL (4,7\%), também possui contribuição, embora menor.
 
-As variáveis de menor impacto foram \textbf{motivação para análise estatística} (1,9\%) e o \textbf{curso de origem} do estudante (0,9\%). Isso sugere que a confiança adquirida ao longo da disciplina é mais fortemente influenciada por aspectos motivacionais e pedagógicos do que por características demográficas ou estruturais.
+O segundo código, a \textbf{clareza metodológica adquirida}, apareceu em 6 relatos: \textit{``O fato da disciplina ter mostrado o passo a passo de como conduzir uma pesquisa me fez sentir menos insegurança''} (E4); \textit{``Os passos para uma análise quantitativa e/ou qualitativa são bem definidos, eu não tinha essa percepção antes''} (E20).
+
+Por fim, dois relatos indicaram \textbf{dificuldades remanescentes}, sugerindo que a construção da autoeficácia não foi uniforme entre todos os participantes: \textit{``O projeto final me definiu uma nova visão sobre condução de uma pesquisa, mas ainda é complicado, mas nada que mais estudo não solucione''} (E14).
+
+\subsubsection{Impacto dos estudos dirigidos}
+
+Os estudos dirigidos --- atividades conduzidas de forma autônoma pelos alunos, organizadas em grupos e apresentadas periodicamente para a turma --- foram avaliados positivamente pela maioria dos respondentes, embora desafios relevantes tenham sido identificados.
+
+O principal facilitador foi o mecanismo de \textbf{aprender ensinando}: \textit{``Acredito que ler e ter que interpretar para entender o conteúdo [...] fez com que a gente se sentisse mais capaz (autoconfiança) e trabalhasse o raciocínio, já que de certa forma precisávamos elaborar `uma aula' para apresentá-la posteriormente''} (E3). A \textbf{autonomia} e o \textbf{trabalho colaborativo} foram igualmente valorizados: \textit{``Essa metodologia me possibilitou mais autonomia e me fez aprender bastante''} (E8); \textit{``O fato de ter sido em grupo facilitou a compreensão dos conteúdos''} (E4).
+
+Entre os desafios, a \textbf{fragmentação do conteúdo em grupos} foi a dificuldade mais expressiva: \textit{``Facilitou para absorver melhor os conteúdos pelos quais eu ficava responsável, mas dificultou em ter uma visão do conteúdo todo. Como os capítulos eram muito grandes e o tempo era muito curto, meu grupo acabou dividindo os conteúdos entre os integrantes [...] acabou que eu não absorvi bem os conteúdos que foram resumidos pelas outras pessoas''} (E7). A barreira linguística dos materiais em inglês também foi mencionada como fator dificultador (E14).
+
+\subsubsection{Fatores motivacionais e contribuição para a formação}
+
+A análise das respostas sobre motivação revelou cinco códigos temáticos que explicam qualitativamente por que a motivação é o principal preditor da confiança, conforme evidenciado na análise de regressão (Seção \ref{sec:regressao}).
+
+A \textbf{aplicação prática dos conteúdos} foi o fator motivacional mais citado (8 estudantes): \textit{``As aplicações práticas das técnicas passadas ao longo da cadeira''} (E2); \textit{``A possibilidade de planejar, conduzir e analisar os dados, na prática, me motivou a participar ativamente das atividades''} (E13). A \textbf{ausência de provas tradicionais} emergiu como diferencial relevante: \textit{``A não necessidade de provas ajudou bem mais no aprendizado''} (E6); \textit{``A forma como a disciplina foi conduzida com estudos dirigidos tirando da prática tradicional das avaliações teve impacto positivo no aprendizado''} (E8). A \textbf{conexão com projetos pessoais}, especialmente o TCC, também se mostrou relevante: \textit{``Os conteúdos abordados na disciplina me ajudaram a construir várias ideias para o meu TCC''} (E17); \textit{``O artigo que eu estava fazendo em paralelo com a disciplina me ajudou e me orientou muito''} (E10).
+
+Quanto à contribuição para a formação, 15 dos 21 respondentes mencionaram a preparação para conduzir pesquisas futuras: \textit{``Posso conduzir experimentos com um melhor direcionamento [...]. Assim posso extrair resultados significativos com questões que venham a surgir na minha vida profissional''} (E7); \textit{``A disciplina fez com que eu tivesse mais confiança em relação ao que posso fazer em uma pesquisa''} (E3). Uma sugestão identificada foi evitar a fusão tardia de equipes para o TP2: \textit{``Talvez não unir dois grupos para o trabalho prático 2, às vezes a dinâmica com outra equipe, introduzida de maneira tardia, pode não ser tão interessante''} (E17).
+
+\subsection{Análise de Regressão} \label{sec:regressao}
+Para identificar quais fatores influenciam a confiança dos estudantes em conduzir pesquisas experimentais, foi ajustado um modelo de Random Forest Regressor. A Figura \ref{fig:importanciaIndividual} apresenta a importância relativa das variáveis no modelo, evidenciando que \textbf{a motivação média dos estudantes} é, de longe, o fator mais determinante da confiança (41,1\%), seguida da \textbf{motivação para Análise Qualitativa} (20,1\%). Em posição secundária, Engajamento (8,4\%), Conhecimento prévio (8,1\%) e Motivação para Survey (8,0\%) contribuem de forma moderada; Estudo de Caso (6,7\%) e RSL (4,7\%) possuem contribuição menor. As variáveis de menor impacto foram motivação para análise estatística (1,9\%) e curso de origem (0,9\%), indicando que a confiança é mais influenciada por aspectos motivacionais e pedagógicos do que por características demográficas.
 
  \begin{figure}[!ht]
      \centering
@@ -178,50 +168,52 @@ As variáveis de menor impacto foram \textbf{motivação para análise estatíst
      \label{fig:importanciaIndividual}
  \end{figure}
 
-Ao agrupar as variáveis preditoras do modelo por categorias funcionais, observa-se que os aspectos motivacionais — englobando tanto a motivação geral quanto a específica por tópicos — são os principais determinantes da confiança discente, respondendo por 82,6\% da importância total. Este resultado sugere que estudantes que se percebem mais motivados durante o curso tendem a relatar níveis significativamente mais elevados de autoconfiança para a aplicação prática dos conceitos de ESE, superando o peso de fatores comportamentais e cognitivos. Em uma posição secundária, as categorias de Engajamento (8,4\%) e Conhecimento Prévio (8,1\%) contribuem de forma moderada para o modelo, enquanto o curso de origem (0,9\%) apresenta impacto quase nulo, indicando que a confiança adquirida não depende da formação base (Engenharia de Software ou Ciência da Computação) do estudante.
+\subsection{Análise de Confiabilidade do Instrumento}
 
-\subsection{Análise de Confiabilidade e Consistência}
-Para verificar a robustez do instrumento de coleta de dados e garantir que as percepções relatadas pelos estudantes fossem consistentes, realizou-se uma análise psicométrica baseada em três indicadores principais:
-
-\begin{itemize}
-    \item \textbf{Consistência Interna por Bloco ($\alpha$ de Cronbach):} Esta métrica avalia o quão bem um conjunto de itens (perguntas) mede um mesmo conceito ou dimensão (ex: Bloco de Conhecimento, Bloco de Motivação). Os blocos foram definidos seguindo as dimensões originais do instrumento de Meireles et al. (2024). Um valor de $\alpha$ acima de 0,70 é geralmente considerado aceitável, indicando que as perguntas de um mesmo bloco são compreendidas de forma coesa pelos respondentes.
-    \item \textbf{Correção Item-Total Correlacionada:} Este índice verifica a correlação de cada pergunta individual com o escore total do seu respectivo bloco. Em termos práticos, ele indica se um item específico ``conversa'' bem com os demais ou se ele está medindo algo diferente do pretendido. Valores abaixo de 0,30 sugerem que o item pode ser ambíguo.
-    \item \textbf{$\alpha$ de Cronbach se o Item for Deletado:} Esta análise simula o que aconteceria com a confiabilidade do bloco caso uma pergunta específica fosse removida. Se a exclusão de um item aumenta significativamente o $\alpha$ total, isso sinaliza que aquele item estava ``puxando a consistência para baixo'' e deve ser revisado em futuras aplicações do curso.
-\end{itemize}
-\subsubsection{Consistência interna por bloco}
-A Figura \ref{fig:AlphaAnalisys} apresenta os valores de Alpha de Cronbach para os três blocos multidimensionais analisados. O Bloco 1 (Conhecimento Antes) exibiu consistência interna excelente ($\alpha$
- = 0.928), enquanto o Bloco 2 (Conhecimento Depois) apresentou consistência boa ($\alpha$
- = 0.832), ambos acima dos limites recomendados para instrumentos educacionais ($\alpha$ $\geq$
- 0.70). Em contraste, o Bloco 3 (Motivação) obteve $\alpha$
- = 0.616, valor classificado como questionável, indicando menor homogeneidade entre os itens.
+Para verificar a robustez do instrumento de coleta, realizou-se uma análise psicométrica baseada no $\alpha$ de Cronbach, nas correlações item-total e na simulação de exclusão de itens. A Figura \ref{fig:AlphaAnalisys} sintetiza os resultados para os três blocos do questionário.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{cronbach_alpha_analysis.png}
-    \caption{Alpha de cronbach e correlações}
+    \caption{Alpha de Cronbach e correlações item-total por bloco}
     \label{fig:AlphaAnalisys}
 \end{figure}
-\subsubsection{Correlações Item-total}
-As Figuras \ref{fig:AlphaAnalisys}b, \ref{fig:AlphaAnalisys}c e \ref{fig:AlphaAnalisys}d apresentam as correlações item-total para os três blocos.
-No Bloco 1, todas as correlações situaram-se entre 0.555 e 0.888, significativamente acima do mínimo aceitável (0.30), demonstrando forte convergência dos itens para o constructo medido. O Bloco 2 mostrou correlações entre 0.494 e 0.740, indicando relação consistente, ainda que ligeiramente menos robusta que no Bloco 1. Já no Bloco 3, as correlações variaram entre 0.323 e 0.472, valores próximos ao limiar mínimo, sugerindo que os itens compartilham variância, mas de forma menos expressiva. 
 
-\subsubsection{Avaliação de Alpha se Item Deletado}
-A Figura \ref{fig:alphaSeDeletado}a demonstra que, no Bloco 1, a exclusão de qualquer item produziria aumento marginal no valor de $\alpha$  (máximo de +0.008), indicando que todos contribuem adequadamente para a consistência interna. Situação semelhante é observada na Figura \ref{fig:alphaSeDeletado}b para o Bloco 2, onde a variação máxima ao remover um item foi pequena (±0.049), não comprometendo a coerência do bloco.
+Os Blocos 1 (Conhecimento Antes, $\alpha = 0{,}928$) e 2 (Conhecimento Depois, $\alpha = 0{,}832$) apresentaram consistência interna acima do limiar recomendado ($\alpha \geq 0{,}70$), com correlações item-total entre 0,494 e 0,888, indicando forte alinhamento dos itens aos constructos medidos. O Bloco 3 (Motivação), por outro lado, obteve $\alpha = 0{,}616$, com correlações item-total próximas ao limiar mínimo de aceitabilidade (0,323--0,472).
 
-No Bloco 3 (Figura \ref{fig:alphaSeDeletado}c), a análise revela que a exclusão do item relacionado à Revisão Sistemática da Literatura (RSL) resulta em um aumento do alpha para 0.640, sugerindo que este item apresenta menor aderência ao constructo de motivação. Em contrapartida, a exclusão do item “Estudo de Caso” reduz substancialmente o $\alpha$
- (para 0.520), indicando que este item possui maior contribuição para a consistência interna do bloco.
+A análise de exclusão de itens revelou que, nos Blocos 1 e 2, a remoção de qualquer item produziria variação marginal no $\alpha$. No Bloco 3, a exclusão do item de RSL elevaria o $\alpha$ para 0,640, enquanto a remoção de ``Estudo de Caso'' o reduziria para 0,520, evidenciando heterogeneidade no constructo de motivação. Esses resultados sugerem a necessidade de revisão dos itens de motivação em futuras aplicações do instrumento.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{cronbach_alpha_if_deleted.png}
-    \caption{Alpha de Cronbach se item deletado}
-    \label{fig:alphaSeDeletado}
-\end{figure}
-No conjunto, os resultados indicam que os Blocos 1 e 2 possuem estrutura psicométrica sólida, com altos níveis de consistência interna e forte alinhamento entre os itens. Já o Bloco 3 apresenta indícios de fragilidade estrutural, evidenciados pelo alpha reduzido, correlações item-total próximas ao limiar de aceitabilidade e impacto positivo da remoção de itens específicos. Tais evidências sugerem a necessidade de revisão ou expansão do conjunto de itens relacionados à motivação para aprimoramento de sua confiabilidade em futuras aplicações do instrumento.
+
+
+\section{Lições Aprendidas}
+
+A implementação da Aprendizagem Ativa em uma turma de 63 estudantes gerou aprendizados relevantes para futuras ofertas da disciplina. Esta seção apresenta as perspectivas da equipe docente e dos monitores, articulando-as com os achados qualitativos e quantitativos apresentados anteriormente.
+
+\subsection{O que funcionou}
+
+A progressão entre os dois trabalhos práticos mostrou-se um dos elementos mais eficazes. No TP1, os estudantes reanalisaram um experimento controlado publicado; no TP2, planejaram, executaram e analisaram seus próprios estudos primários. Essa transição gradual --- da reanálise à condução autônoma --- foi percebida pela professora como fundamental para a autoeficácia, corroborada pelos dados: a mediana do TP2 foi superior à do TP1. Os estudos dirigidos promoveram o mecanismo de \textit{aprender ensinando}; a monitoria observou discussões espontâneas nos seminários. As sessões de laboratório (JASP, Taguette, Flourish) conectaram teoria e prática; a presença de três monitores \cite{greco2025learning} foi importante para atender a turma. A ausência de provas tradicionais foi citada pelos estudantes como fator motivacional e refletiu-se em maior engajamento contínuo.
+
+\subsection{O que não funcionou ou pode ser aprimorado}
+
+A principal dificuldade observada pelos monitores foi a \textbf{curva de aprendizado em análise estatística}. No TP1, alguns grupos não conseguiram reproduzir os testes estatísticos ou não compreenderam a necessidade de verificar a normalidade dos dados antes de selecionar o teste de hipóteses adequado. Esse desafio sugere a necessidade de sessões adicionais de laboratório focadas exclusivamente em análise estatística antes da atribuição do TP1.
+
+A \textbf{fragmentação do conteúdo nos estudos dirigidos} foi uma dificuldade identificada tanto nos relatos qualitativos quanto nas observações dos monitores. Quando confrontados com capítulos extensos e prazos curtos, alguns grupos dividiram o material entre os integrantes, resultando em compreensão parcial do conteúdo. Uma possível melhoria seria reduzir o escopo dos estudos dirigidos ou adicionar sessões de discussão pós-seminário em formato de mesa-redonda, criando um espaço para esclarecimento coletivo de dúvidas.
+
+A \textbf{barreira linguística} com materiais em inglês também foi mencionada como fator dificultador. Embora a leitura em inglês seja uma competência esperada na formação acadêmica, a equipe docente reconhece que a disponibilização de materiais complementares em português pode facilitar a compreensão inicial dos conceitos.
+
+A \textbf{fusão tardia de equipes} para o TP2 foi reportada por um estudante como problemática, indicando que a dinâmica de grupo já estabelecida pode ser prejudicada pela introdução de novos integrantes em estágio avançado do semestre.
+
+Por fim, os monitores observaram que, no início do semestre, \textbf{alguns estudantes não compreenderam que deveriam completar todos os estudos dirigidos}, e não apenas aqueles que iriam apresentar. Essa observação reforça a importância de comunicar explicitamente as expectativas de cada atividade desde o primeiro dia de aula.
+
+\subsection{Para quem a abordagem funcionou melhor}
+
+A análise de regressão (Seção \ref{sec:regressao}) evidenciou que o curso de origem do estudante (Engenharia de Software ou Ciência da Computação) teve impacto quase nulo (0,9\%) na confiança adquirida, indicando que a abordagem é igualmente eficaz independentemente da formação base. Os estudantes que mais se beneficiaram foram aqueles que perceberam conexão direta entre a disciplina e seus projetos pessoais --- especialmente o TCC ---, conforme evidenciado nos relatos qualitativos. Estudantes sem qualquer experiência prévia em ESE (13 dos 21 respondentes) demonstraram os maiores ganhos de autoeficácia, sugerindo que a disciplina é particularmente valiosa para alunos em primeiro contato com métodos empíricos.
 
 \section{Considerações finais}
-Os resultados indicam que estratégias de aprendizagem ativa contribuem para o desenvolvimento do conhecimento metodológico e para o fortalecimento da autoconfiança dos estudantes em Engenharia de Software Experimental, sendo a motivação o fator mais fortemente associado à confiança para conduzir pesquisas empíricas. Esse achado reforça a relevância de abordagens pedagógicas que promovam envolvimento ativo e significado percebido ao longo do processo de aprendizagem.
+Os resultados indicam que estratégias de aprendizagem ativa contribuem para o desenvolvimento do conhecimento metodológico e para o fortalecimento da autoconfiança dos estudantes em Engenharia de Software Experimental, sendo a motivação o fator mais fortemente associado à confiança para conduzir pesquisas empíricas. A análise qualitativa revelou que a autoeficácia foi construída predominantemente pela vivência prática de condução de estudos completos, com 12 dos 21 respondentes atribuindo sua confiança diretamente a essa experiência. A triangulação entre os dados quantitativos e qualitativos evidencia que a motivação, identificada como principal preditor da confiança no modelo de regressão, é alimentada pela aplicação prática dos conteúdos, pela ausência de provas tradicionais e pela conexão com projetos pessoais dos estudantes.
 
-Como perspectivas de trabalhos futuros, destacam-se o aprimoramento do instrumento de coleta, especialmente com a inclusão de novos itens para melhor captar a percepção de contribuição da disciplina e aumentar a confiabilidade do bloco de motivação, bem como a replicação do estudo em outras turmas e contextos institucionais. Além disso, investigações com amostras maiores e análises longitudinais podem oferecer evidências mais robustas sobre o impacto dessas estratégias na formação de profissionais orientados por evidências.
+A experiência também evidenciou desafios concretos: a curva de aprendizado em análise estatística, a fragmentação do conteúdo nos estudos dirigidos e a barreira linguística. Para docentes que considerem adotar abordagem semelhante, recomenda-se a progressão gradual entre atividades de reanálise e condução autônoma de estudos, a comunicação explícita das expectativas desde o início do semestre, e a alocação de monitores em número proporcional ao tamanho da turma.
+
+Como perspectivas de trabalhos futuros, destacam-se o aprimoramento do instrumento de coleta, especialmente a revisão dos itens de motivação cuja confiabilidade foi questionável ($\alpha = 0{,}616$), bem como a replicação do estudo em outras turmas e contextos institucionais. Investigações com amostras maiores e análises longitudinais podem oferecer evidências mais robustas sobre o impacto dessas estratégias na formação de profissionais orientados por evidências.
 
 \section*{Artefatos relacionados ao trabalho}
 \label{sec:artefatos}
