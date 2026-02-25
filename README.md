@@ -76,7 +76,7 @@ Se utilizar os dados ou materiais deste repositório, cite o artigo:
   author={Bandeira, Caio C{\'e}sar Sousa and Greco, Ranya Duran and Freitas Filho, Carlos Augusto Carneiro de and Santos, J{\'u}lia Freitas and Marques, Anna Beatriz},
   booktitle={[VI Simpósio Brasileiro de Educação em Computação]},
   year={[2026]},
-  note={Artefatos disponíveis em: [URL/DOI do repositório]}
+  note={Artefatos disponíveis em: [https://doi.org/10.5281/zenodo.18772199]}
 }
 ```
 
