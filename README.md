@@ -74,8 +74,8 @@ Se utilizar os dados ou materiais deste repositório, cite o artigo:
 @inproceedings{ees-feedback,
   title={Aprendizagem ativa de Engenharia de Software Experimental: Uma análise sobre autoconfiança e aprendizado},
   author={Bandeira, Caio C{\'e}sar Sousa and Greco, Ranya Duran and Freitas Filho, Carlos Augusto Carneiro de and Santos, J{\'u}lia Freitas and Marques, Anna Beatriz},
-  booktitle={[Evento de publicação]},
-  year={[Ano]},
+  booktitle={[VI Simpósio Brasileiro de Educação em Computação]},
+  year={[2026]},
   note={Artefatos disponíveis em: [URL/DOI do repositório]}
 }
 ```
