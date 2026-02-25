@@ -12,7 +12,7 @@ ipython_config.py
 anonimizer.ipynb
 
 *.md
-*.pdf
+!README.md
 img/
 utils/
 main-antigo.tex
